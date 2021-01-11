@@ -1,0 +1,4 @@
+# bila dah update file run command nie
+git add .
+git commit -m "i just added something"
+git push -u origin master
