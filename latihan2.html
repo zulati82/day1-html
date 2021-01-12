@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Project Piano</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Josefin+Sans:ital,wght@1,300&family=Montserrat:wght@100&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
 		<style type="text/css">
 			body {
 				background: rgb(235,235,235);
 				font-family: 'Courier', 'Courier Sans', serif;
+				font-size: 1.2em;
 			
 			}
 			#logo {
 				background: white;
-				border: double black 5px;
-				width: 700px;
+				border: double black 0.25em;
+				width: 50%;
 				margin: 0px auto;
-				padding: 60px 100px;
+				padding: 5% 10%;
 				text-align: center;
+				min-width: 600px;
 			}
+			#logo #keys{
+				width: 100%;
+			} 
 			ul{
-				border-top: 1px solid black;
-				border-bottom: 3px solid black;
-				padding: 10px 0px;
+				border-top: 0.5em solid black;
+				border-bottom: 0.2em solid black;
+				padding: 0.5em 0;
 			}
 			ul li {
 				display: inline-block;
-				margin:0px 15px;
+				margin:0px 0.8;
 			}
 			ul li a{
 				text-decoration: none;
@@ -35,7 +40,7 @@
 				text-decoration: underline;
 				color :#111;
 			}
-
+			
 		</style>
 
 </head>
@@ -49,7 +54,7 @@
 			<li><a href="#">About</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
-		<img src="keys.jpg">
+		<img src="keys.jpg" id="keys">
 		<p>We specilize in the sale and repair of classic keyboards, in particular the Fender Rhodes, Wurlitzer EP200, and Hohnet Clavinet.</p>
 	</div>
 	

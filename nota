@@ -1,4 +1,47 @@
+echo "# html-day2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zulati82/html-day2.git
+git push -u origin main
+                
+
 # bila dah update file run command nie
 git add .
 git commit -m "i just added something"
 git push -u origin master
+
+************
+h1 h2, p ,ol, ul,li .. enter line - block element
+a, img, span, strong, em in block element .. exmp:display: inline-block;
+<br/> create new line
+
+**********
+bootstrap
+- create responsive page
+-
+
+css unit
+-absolute- size tetap 
+-relative- 
+-percentage
+
+flexbox
+-
+
+break point, titik pertukaran antara 2 design
+min-width: 600px; size skrin yang paling kecil jika skrin di kecilkan ,, kena scroll
+
+
+kotak -width em / %
+font size - rem
+padding - em
+
+
+serif - tulisan berekor 
+sans serif tak berekor
+monospace- type writer
+cursive- tulisan bersambung
+
+time new romance- x bootstrap
